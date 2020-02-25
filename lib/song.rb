@@ -26,7 +26,7 @@ class Song
   end
   def self.find_by_name(name)
     
-    @@all.reject(name) {|x| x. 
+    @@all.reject(name) {|x| x.name != name} 
     
   end
   
